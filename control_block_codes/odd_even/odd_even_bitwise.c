@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void checkoddeven(int num){
+	
+	
+	if(num & 1){
+		
+		printf("The number %d is odd\n", num);
+	}
+	
+	else{
+		
+		printf("The number %d is even\n", num);
+	}
+	
+}
+
+int main(){
+	
+	int a;
+	printf("Enter the number:");
+	scanf("%d", &a);
+	
+	checkoddeven(a);
+	
+	return 0;
+}
